@@ -2995,7 +2995,7 @@
 	var thedata = {"token":localStorage.getItem("token"),"user":localStorage.getItem("email")};
 		
 				$.ajax({
-			url: "http://llogixit.kesug.com/statsapp/getstats.php",
+			url: "https://llogixit.kesug.com/statsapp/getstats.php",
 			type: "POST",
 			data: JSON.stringify(thedata),
 			contentType: "app/json: charset=UTF-8",
@@ -3029,7 +3029,7 @@
 		
 			console.log(selectedDatas);
 			$.ajax({
-			url: "http://llogixit.kesug.com/statsapp/select.php",
+			url: "https://llogixit.kesug.com/statsapp/select.php",
 			type: "POST",
 			data: JSON.stringify(thedata),
 			contentType: "app/json: charset=UTF-8",
